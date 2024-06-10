@@ -1,3 +1,3 @@
 Link deploy
 
-https://bernogate.github.io/condiciones-js.io/
+https://bernogaete.github.io/condiciones-js.io/
