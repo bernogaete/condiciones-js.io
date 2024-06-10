@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tiny5", sans-serif;
+
+    
+}
+
+
+
+.principal-container {
+height: 100vh;
+display: grid;
+grid-template-rows: 1fr 3fr 1fr;
+grid-template-areas: 
+"header"
+"main"
+"footer";
+
+}
+
+.contenedorprincipalindex {
+    background-image: url(../img/gjTGNBu-super-mario-backgrounds.jpg);
+    background-position:  center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(177, 174, 174);
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -5rem;
+    
+}
+
+main {
+   grid-area: main;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-top: -5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10rem;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(19, 18, 18);
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: -5rem;
+
+}
+
+.img-container {
+    height: 400px;
+    width: 400px;
+    background-position:  center;
+    background-size: cover;
+    background-image: url(../img/mondrian.png);
+    
+}

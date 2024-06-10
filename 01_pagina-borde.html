@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_Página Borde</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="principal-container">
+        <header>
+           
+            <h1>Página Borde</h1>
+           
+        </header>
+   
+<main>
+    <a href="./index.html">Home</a>
+    <div class="profile-container">
+<section class="img-container"></section>
+</main>
+<footer>
+<section class="btn-container">
+    
+<button onclick="
+var btn = document.querySelector('.img-container')
+
+
+btn.style.borderStyle = 'solid' 
+btn.style.borderWidth = '10px'
+btn.style.borderColor = 'red'">
+Borde Rojo
+</button>
+
+<button onclick="
+var btn = document.querySelector('.img-container')
+
+
+btn.style.borderStyle = 'none' 
+btn.style.borderColor = 'red'">
+Sin Borde Rojo
+</button>
+
+</section>
+</footer>
+
+
+    </div>
+
+</div>
+</body>
+</html>
